@@ -1,0 +1,140 @@
+body {
+    font-family:BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    padding: 0px;
+    margin: 0;
+    font-size: 1rem;
+
+    
+    line-height: 1rem;
+    background-color: #F6F6F6
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p, li{
+    line-height: 1.3rem;
+}
+
+#navbar {
+    background-color: #D1D1D1;
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#main-title {
+    font-size: 1.8rem;
+    font-weight: 550;
+    padding: 1.5rem;
+    background-color: #3e3e36;
+    color: #fff;
+}
+
+.list-title {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.list-titles {
+    padding: 1rem;
+    border-top-width: 2px;
+    border-top-style:groove;
+    border-top-color: black;
+    padding-left: 60px;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#main-doc {
+    margin-left: 320px;
+    padding: 30px;
+}
+
+.tilte-section{
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: #4F4F4F;
+    color: #F6F6F6;
+    width: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.code-box {
+    display: block;
+    overflow-wrap: inherit;
+    padding: 20px;
+    background-color: #3e3e36;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.code-var{
+    color: #03d3d0;
+}
+
+.code-class {
+    color: #1acd81;
+}
+
+.code-method {
+    color: #ebe707;
+}
+
+.code-scope {
+    color: #fdc865;
+}
+
+.code-subscope {
+    color: #c715e4;
+}
+
+.code-subscope2 {
+    color: #5337f4;
+}
+
+.code-string {
+    color: #f57701;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+    #main-title {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .tilte-section{
+        font-size: 25px;
+        line-height: 26px;
+
+    }
+
+    #navbar {
+        position: absolute;
+        top: 0;
+        max-height: 400px ;
+        width: 100%;
+        border-bottom: 3px #000 ;
+    }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 400px;
+    }
+}
